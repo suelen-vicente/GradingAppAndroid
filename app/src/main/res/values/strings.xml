@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">SueAppForAll</string>
+    <string name="app_for_all_student">App For All - Student</string>
+    <string name="main_page_image_description">Main Page Image</string>
+    <string name="enter_grades_menu_title">Enter Grades</string>
+    <string name="enter_improvement_menu_title">Enter Improvement</string>
+    <string name="search_grade_menu_title">Search Grade</string>
+    <string name="list_students_menu_title">List Students</string>
+
+    <!-- Open and Close string for drawer-->
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    <!-- Strings for widgets -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_grades_text_view">Add Grades</string>
+    <string name="student_name_edt_hint">Student Name</string>
+    <string name="program_edt_hint">Program</string>
+    <string name="marks_for_course_1_edt_hint">Marks for Course 1</string>
+    <string name="marks_for_course_2_edt_hint">Marks for Course 2</string>
+    <string name="marks_for_course_3_edt_hint">Marks for Course 3</string>
+    <string name="marks_for_course_4_edt_hint">Marks for Course 4</string>
+    <string name="submit_btn">Submit</string>
+    <string name="add_improvement_text_view">Add Improvement</string>
+    <string name="student_id_edt_hint">Student ID</string>
+    <string name="improvement_mark_edt_hint">Improvement Mark</string>
+    <string name="list_students_text_view">Students</string>
+    <string name="search_grades_text_view">Search Grades</string>
+    <string name="student_name_search_txt">Student Name:</string>
+    <string name="program_search_txt">Program:</string>
+    <string name="marks_for_course_1_search_txt">Marks for Course 1:</string>
+    <string name="marks_for_course_2_search_txt">Marks for Course 2:</string>
+    <string name="marks_for_course_3_search_txt">Marks for Course 3:</string>
+    <string name="marks_for_course_4_search_txt">Marks for Course 4:</string>
+    <string name="total_marks_search_txt">Total Marks:</string>
+</resources>

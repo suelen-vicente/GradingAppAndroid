@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AddImprovementFragment">
+
+    <LinearLayout
+        android:id="@+id/lnImprovementFrag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:textSize="30sp"
+            android:textColor="@color/dark_blue"
+            android:text="@string/add_improvement_text_view" />
+
+        <EditText
+            android:id="@+id/edtStudentIdImprovement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="@string/student_id_edt_hint" />
+
+        <Spinner
+            android:id="@+id/spnCourse"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/edtImprovementMark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="@string/improvement_mark_edt_hint" />
+
+        <Button
+            android:id="@+id/btnSubmitImprovement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/submit_btn" />
+    </LinearLayout>
+
+</FrameLayout>

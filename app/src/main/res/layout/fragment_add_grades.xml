@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AddGradesFragment">
+
+    <LinearLayout
+        android:id="@+id/lnAddGradesFrag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:textSize="30sp"
+            android:textColor="@color/dark_blue"
+            android:text="@string/add_grades_text_view" />
+
+        <EditText
+            android:id="@+id/edtStudentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/student_name_edt_hint" />
+
+        <EditText
+            android:id="@+id/edtProgram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/program_edt_hint" />
+
+        <EditText
+            android:id="@+id/edtMarksCourse1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="@string/marks_for_course_1_edt_hint" />
+
+        <EditText
+            android:id="@+id/edtMarksCourse2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="@string/marks_for_course_2_edt_hint" />
+
+        <EditText
+            android:id="@+id/edtMarksCourse3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="@string/marks_for_course_3_edt_hint" />
+
+        <EditText
+            android:id="@+id/edtMarksCourse4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="@string/marks_for_course_4_edt_hint" />
+
+        <Button
+            android:id="@+id/btnSubmitGrade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/submit_btn" />
+    </LinearLayout>
+</FrameLayout>
